@@ -56,9 +56,9 @@ navbarPage(
            tags$ol(style = "font-family: 'Bookman Old Style', serif; font-size: 18px; text-align: left",
                   tags$b(tags$li('Data Visualization'),tags$li('Machine Learning'))),hr(),br(),
            tags$p(style = "font-family: 'Oswald', serif; font-size: 28px; text-align: center; color: red", tags$b('Contacts')),
-           tags$p(tags$a(href="https://www.linkedin.com/in/krishnakanta-maity-66a4631b2/",tags$img(src = 'social-011-round_linkedin.png')),
-                  tags$a(href="https://github.com/iamkkm-cmd",tags$img(src = 'social-041-round_github.png')),
-                  tags$a(href="https://twitter.com/krishnakantam14",tags$img(src = 'social-003-round_twitter.png')), style = 'text-align:center')
+           tags$p(tags$a(href="https://www.linkedin.com/in/iamkkmcmd/",tags$img(src = 'social-011-round_linkedin.png')),
+                  tags$a(href="https://github.com/iamkkmcmd",tags$img(src = 'social-041-round_github.png')),
+                  tags$a(href="https://twitter.com/iamkkmcmd",tags$img(src = 'social-003-round_twitter.png')), style = 'text-align:center')
     
   ),
   setBackgroundColor(color = rainbow(7, alpha = 0.5),
