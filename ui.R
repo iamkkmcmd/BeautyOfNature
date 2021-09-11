@@ -35,7 +35,7 @@ navbarPage(
              ),
              mainPanel(
                tabsetPanel(selected = 'About',
-                           tabPanel('About', tags$p(class = "text-center", tags$img(src = 'math_behind_it.png'))),
+                           tabPanel('About',withMathJax(includeMarkdown("./www/math_behind_it.md"))),
                            tabPanel('Plot', withSpinner(plotOutput('plot1', height = 600, width = 600),type = 4),
                                     downloadButton('dwn_plot_1', 'Download Plot')),
                            tabPanel('Data', withSpinner(dataTableOutput('table1')),
@@ -50,7 +50,7 @@ navbarPage(
                   tags$strong('Krishnakanta Maity')),hr(),
            tags$p(style = "font-family: 'Oswald', serif; font-size: 20px; text-align: left; color: red; font-style:normal", tags$b('Description')),
            tags$p(style = "font-family: 'Bookman Old Style', serif; font-size: 18px; text-align: left",
-                  tags$b('Currently, I’m student. I pursuing my M.Sc. degree in Statistics from the Visva-Bharati University 
+                  tags$b('Currently, I am student. I pursuing my M.Sc. degree in Statistics from the Visva-Bharati University 
                          and completed my B.Sc. degree in statistics from Midnapore College (Autonomous).')),
            tags$p(style = "font-family: 'Oswald', serif; font-size: 20px; text-align: left; color: red", tags$b('Interest')),
            tags$ol(style = "font-family: 'Bookman Old Style', serif; font-size: 18px; text-align: left",
@@ -61,7 +61,9 @@ navbarPage(
                   tags$a(href="https://twitter.com/iamkkmcmd",tags$img(src = 'social-003-round_twitter.png')), style = 'text-align:center')
     
   ),
-  setBackgroundColor(color = rainbow(7, alpha = 0.5),
-                     gradient = 'radial',
-                     direction = c('bottom', 'left'))
+  windowTitle = 'BeautyOfNature',
+  shinythemes::themeSelector()
+  # setBackgroundColor(color = rainbow(7, alpha = 0.5),
+  #                    gradient = 'radial',
+  #                    direction = c('bottom', 'left'))
 )

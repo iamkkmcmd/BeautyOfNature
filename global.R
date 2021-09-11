@@ -1,25 +1,14 @@
-# For printing generated data
-library(DT)
+# ------------------ Load libraries --------------------------------------------
+library(DT) # For printing generated data
+library(shiny) # for shiny web application
+library(ggplot2) # grammer of graphics
+library(markdown) # generate code with text
+library(shinycssloaders) # css loaders
+library(shinyWidgets) # shiny widgets
+library(colourpicker) # color picker
+library(shinythemes)
 
-# for shiny web application
-library(shiny)
-
-# grammer of graphics
-library(ggplot2)
-
-# generate code with text
-library(markdown)
-
-# css loaders
-library(shinycssloaders)
-
-# shiny widgets
-library(shinyWidgets)
-
-# color picker
-library(colourpicker)
-
-#---------------------- Function for making first dataframe--------------------
+#---------------------- Function for making first dataframe --------------------
 construct_df1 <- function(a, b, n){
   angle <- pi*(a-sqrt(b))
   points <- n
