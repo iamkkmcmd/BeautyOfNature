@@ -11,9 +11,13 @@
 >  **Visit:** [**https://iamkkm-cmd.shinyapps.io/BeautyOfNature/**](https://iamkkm-cmd.shinyapps.io/BeautyOfNature/)
 
 ## About
-- Title of the project: **Beauty of Nature**
+- Title: **Beauty of Nature: Phyllotaxis**
 - Credit: [Krishnakanta Maity](https://github.com/iamkkmcmd) 
-- **Jan - May, 2020**
+- Time Span: **Jan - May, 2020**
+- Method Used: **EDA, Difference in Difference Regression, Panel data regression, DID panel data regression**
+- Programming Language: R, Python
+- Technology: Jupyter Notebook, R Studio, Latex
+- Dependency: Mention in initial part of the [global.R](global.R).
 
 
 ## :ledger: Content
@@ -45,7 +49,7 @@ File structure of the project folder is given below. Fine names are self explana
 └── README.md
 ```
 ## How to use?
-In navbar pane, **under navbar there are three tabs viz. about, plot and data**. In the sidebar pane there are sliders for different input options. Also you can download plot (png format) and data (CSV format).
+Look at navbar pane, **under navbar there are three tabs viz. about, plot and data**. In the sidebar pane there are sliders for different input options. Also you can download plot (png format) and data (CSV format).
 
 ## Example
 
