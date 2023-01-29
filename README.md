@@ -14,10 +14,10 @@
 - Title: **Beauty of Nature: Phyllotaxis**
 - Credit: [Krishnakanta Maity](https://github.com/iamkkmcmd) 
 - Time Span: **Jan - May, 2020**
-- Method Used: **EDA, Difference in Difference Regression, Panel data regression, DID panel data regression**
-- Programming Language: R, Python
-- Technology: Jupyter Notebook, R Studio, Latex
-- Dependency: Mention in initial part of the [global.R](global.R).
+- Method Used: **Visualization, Golden Ratio, Golden Angle**
+- Programming Language: R
+- Technology: R Studio, ShinyR
+- Dependency: Mentioned in initial part of the [global.R](global.R).
 
 
 ## :ledger: Content
