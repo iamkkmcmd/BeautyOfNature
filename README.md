@@ -8,9 +8,7 @@
 </p></span>
 </div> -->
 
-> [!https://iamkkm-cmd.shinyapps.io/BeautyOfNature/]
-> 
->  **Note:** [**Visit the Shiny App**](https://iamkkm-cmd.shinyapps.io/BeautyOfNature/)
+>  **Visit:** [**https://iamkkm-cmd.shinyapps.io/BeautyOfNature/**](https://iamkkm-cmd.shinyapps.io/BeautyOfNature/)
 
 ## About
 - Title of the project: **Beauty of Nature**
@@ -18,10 +16,10 @@
 - **Jan - May, 2020**
 
 
-## :ledger: Index
+## :ledger: Content
 
 - [About](#about)
-- [:ledger: Index](#ledger-index)
+- [:ledger: Content](#ledger-content)
 - [:beginner: Introduction](#beginner-introduction)
 - [:file\_folder: File Structure](#file_folder-file-structure)
 - [How to use?](#how-to-use)
@@ -39,8 +37,8 @@ File structure of the project folder is given below. Fine names are self explana
 
 ```
 .
-├── www
 ├── img
+├── www
 ├── global.R
 ├── server.R
 ├── ui.R
