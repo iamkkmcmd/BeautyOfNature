@@ -1,12 +1,16 @@
 
 
-<div class="warning" style='padding:0.1em; text-align: center; background-color:#E9D8FD; color:#FC0362; border-left: solid #805AD5 30px; border-right: solid #805AD5 30px; border-radius: 30%'>
+<!-- <div class="warning" style='padding:0.1em; text-align: center; background-color:#E9D8FD; color:#FC0362; border-left: solid #805AD5 30px; border-right: solid #805AD5 30px; border-radius: 30%'>
 <span>
 <p style='margin-top:1em; text-align:center'>
 <b><a style='font-size:20px;' href='https://iamkkm-cmd.shinyapps.io/BeautyOfNature/'>Visit the Shiny Web App</a></b></p>
 <a style='color:#fc0362; font-size:15px;' href='https://iamkkm-cmd.shinyapps.io/BeautyOfNature/'>https://iamkkm-cmd.shinyapps.io/BeautyOfNature/</a>
 </p></span>
-</div>
+</div> -->
+
+> [!https://iamkkm-cmd.shinyapps.io/BeautyOfNature/]
+> 
+>  **Note:** [**Visit the Shiny App**](https://iamkkm-cmd.shinyapps.io/BeautyOfNature/)
 
 ## About
 - Title of the project: **Beauty of Nature**
